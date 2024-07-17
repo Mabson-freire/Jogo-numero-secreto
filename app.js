@@ -1,5 +1,5 @@
 let numerosGerados = [];
-let tentativaLimite = 10;
+let tentativaLimite = 100;
 let numeroSecreto = gerarAleatorio();
 let tentativas = 1;
 
@@ -22,7 +22,7 @@ function gerarAleatorio() {
     numerosGerados.push(numeroAleatorio);
     console.log(numerosGerados);
     return numeroAleatorio;
-  }
+  }   
 }
 
 function mostrarTextoInicial() {
